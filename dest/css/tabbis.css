@@ -1,0 +1,21 @@
+/* Toggle */
+[data-tabs] {
+	/* display: flex; */
+}
+[data-tabs] >* {
+	cursor: pointer;
+}
+/* .advantadges-tabs__togle */
+[data-tabs] .active {
+	color: #fff;
+	transition-duration: 0.3s;
+}
+/* Tabs */
+[data-panes] > * {
+	display: none;
+	transition-duration: 1.5s;
+}
+[data-panes] > .active {
+	display: flex;
+	transition: all 1.5s ease;
+}

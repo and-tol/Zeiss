@@ -151,7 +151,8 @@ body {
   background-image: url(./../img/first-screen-bg.jpg);
   background-position: 100% 50%;
   display: flex;
-  align-items: center
+  align-items: center;
+  padding-top: 60px;
 }
 
 /* background letter */
@@ -232,10 +233,10 @@ padding-left: 250px;
 .environment {
   background-image: url(./../img/2-Environment-bg.jpg);
   background-position: 100% 50%;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 140px;
 }
 .environment-info {
   max-width: 536px;
@@ -392,9 +393,9 @@ padding-left: 250px;
 .advantadges {
   background-image: url(./../img/advantadges-bg.jpg);
   background-position: 100% 50%;
-
   display: flex;
   align-items: center;
+  padding-top: 80px;
 }
 .advantadges__fon-letter {
   position: absolute;
@@ -515,10 +516,10 @@ padding-left: 250px;
   background-position: 45% 50%, center;
   background-repeat: no-repeat, no-repeat;
   background-size: 135%, cover;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 150px;
 }
 /* History image */
 /* swiper-container */
@@ -672,10 +673,10 @@ padding-left: 250px;
 .team {
   background-image:url(./../img/team-bg.jpg);
   background-position: 50% 0%;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 100px;
 }
 .team-about {
   width: 740px;
@@ -812,10 +813,10 @@ a.team-tabs__togle {
 /* === 6. Building plan === */
 .plan {
   background-image: url(./../img/plans-bg.jpg);
-
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 120px;
 }
 .plan__head-container {
   position: absolute;
@@ -962,6 +963,7 @@ a.team-tabs__togle {
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-top: 120px;
 }
 
 .end__block {
